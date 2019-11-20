@@ -31,10 +31,11 @@ do{
     
     cout<<"\n"<<len<<"\n";
   
-    totalWord= word+word; 
-    totalLen= len+len;
+    totalLen= totalLen+len;
+    totalWord= totalWord+ word;
+
     
-    }while(word!="OK");
+    }while(word!= "0");
 
 cout<<totalLen;
 cout<<totalWord;
