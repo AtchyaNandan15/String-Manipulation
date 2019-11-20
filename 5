@@ -1,0 +1,44 @@
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <iostream>
+#include <string> 
+#include<ctype.h>
+using namespace std;
+
+int main()
+
+{
+  
+  string word;
+  int len;
+  int totalLen;
+  string totalWord;
+  
+  
+do{
+    
+    cout<<" Enter a word\n";
+    cout<<" Enter OK when you are done your sentence";
+    cin>>word;
+    
+    len=word.length();
+    
+    cout<<"\n"<<len<<"\n";
+  
+    totalWord= word+word; 
+    totalLen= len+len;
+    
+    }while(word!="OK");
+
+cout<<totalLen;
+cout<<totalWord;
+
+    
+    
+}
