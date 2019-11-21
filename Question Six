@@ -1,0 +1,4 @@
+Get a word then get a pattern.
+Set the integer = to the position that is the .find of where the pattern in the word. 
+If that integer is greater than 0 than that pattern is in the word. 
+otherwise it is not. 
