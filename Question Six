@@ -2,3 +2,51 @@ Get a word then get a pattern.
 Set the integer = to the position that is the .find of where the pattern in the word. 
 If that integer is greater than 0 than that pattern is in the word. 
 otherwise it is not. 
+
+
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <iostream>
+#include<string>
+#include<ctype.h>
+using namespace std;
+
+int main()
+{
+    
+    string word;
+    string pattern;
+    int pos;
+    
+    
+    cout<<" Enter a word ";
+    cin>>word;
+    
+    cout<<" Enter a pattern ";
+    cin>>pattern;
+    
+    pos = word.find(pattern); 
+        
+        if(pos>0){
+            
+            cout<<" You pattern is in the word";
+            
+        }
+        
+        else {
+            
+            cout<<" Your pattern is not in the word";
+            
+        }
+  
+    
+    
+    
+    
+}
