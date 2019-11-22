@@ -1,0 +1,71 @@
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <iostream>
+#include<string>
+#include<ctype.h>
+using namespace std;
+
+int main()
+{
+    
+    string sentence;
+    string pattern;
+    int pos;
+    int i;
+    int len;
+
+
+   
+    cout<<" Enter a sentence \n";
+    getline(cin, sentence);
+    
+    cout<<" Enter a pattern \n";
+    cin>>pattern;
+    
+    
+    len = pattern.length();
+    for(i=0;i<len;i++) {
+        
+   
+    }
+    pos = sentence.find(pattern);
+        
+        if(pos>0){
+            
+              
+            cout<<" Your pattern is in the word\n";
+            sentence.replace(pos,len," ");
+            cout<<sentence;
+                 
+            
+        }
+        
+    
+        
+        else {
+            
+            cout<<" Your pattern is not in the word\n";
+        
+            
+        }
+        
+    
+    
+        
+}
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
