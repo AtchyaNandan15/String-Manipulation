@@ -1,10 +1,15 @@
-/******************************************************************************
+/********************************************************************************************************************
+*  Atchya Nandan                                                                                       
+*  Date Novmeber 24rd  2019                                                                            
+*  Program: Dev c++ 5.11                                                                               
+*  Purpose: Learn how to use string manipulation                                                      
+* ---------------------------------------------------------------------                                
+* Date Dictionary:  string word.....................................the user enters words that will create a sentence
+                    string totalWord..........................................the counter for the total of words they entered
+                    int len.....................................the length of the words and sentences
+                    int totalLen..........................................the total length of the words and sentences
 
-                              Online C++ Compiler.
-               Code, Compile, Run and Debug C++ program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
+********************************************************************************************************************/
 
 #include <iostream>
 #include <string> 
@@ -16,9 +21,10 @@ int main()
 {
   
   string word;
+  string totalWord;
   int len;
   int totalLen;
-  string totalWord;
+
   
   
 do{
