@@ -1,16 +1,4 @@
-Get a word then get a pattern.
-Set the integer = to the position that is the .find of where the pattern in the word. 
-If that integer is greater than 0 than that pattern is in the word. 
-otherwise it is not. 
 
-
-/******************************************************************************
-
-                              Online C++ Compiler.
-               Code, Compile, Run and Debug C++ program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
 
 #include <iostream>
 #include<string>
