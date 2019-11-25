@@ -17,14 +17,17 @@ using namespace std;
 int main()
 
 {
-  
+ 
  string name;
  
+ \\ask the user for the word
  cout<<" Enter a word ";
  cin>>name;
  
+   //find the letters
     name.append(name, 0, 1);
   
+   //replace with ay
     name.replace(0,1,"");
     
     cout<<" " <<name<<"ay";
