@@ -43,7 +43,7 @@ int main()
    
     }
     pos = sentence.find(pattern);
-        
+         
         if(pos>0){
             
               
